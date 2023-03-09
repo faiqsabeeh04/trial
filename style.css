@@ -1,0 +1,66 @@
+p{
+    color:aqua;
+    background-color: darkcyan;
+}
+
+.hey{
+    background-color: antiquewhite;
+    color: pink;
+    font-style: italic; 
+    font-family: serif;
+    font-size: 40px;
+    line-height: 1.3em;
+    font-weight: bold;
+}
+pre{
+    background-color: blue;
+}
+
+nav {
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+  }
+  
+  nav ul li {
+    flex: 1;
+    text-align: center;
+  }
+  
+  nav ul li a {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #000;
+  }
+  
+  nav ul li a:hover {
+    color: #444;
+    background-color: #ccc;
+  }
+
+body{
+    margin: 0%;
+  }
+
+  #firstPara{
+    color:blueviolet; /* Color by name */
+    background-color: white;
+}
+
+#secondPara{
+    color: rgb(223, 130, 54); /* Color by rgb value */
+    background-color: white;
+}
+
+#thirdPara{
+    color: white;
+    background-color: #ff4532; /* Color by hex value */
+}
